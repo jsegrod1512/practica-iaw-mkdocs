@@ -44,7 +44,7 @@ jsegrod1512-practica-iaw-mkdocs/
    Ejecuta el siguiente comando para generar la estructura básica del proyecto:
 
    ```bash
-   docker run --rm -it -p 8000:8000 --user $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material new .
+   docker run --rm -it -p 8000:8000 -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material new .
    ```
 
    Este comando realiza lo siguiente:
@@ -61,7 +61,7 @@ jsegrod1512-practica-iaw-mkdocs/
    Inicia el servidor de desarrollo para previsualizar el sitio:
 
    ```bash
-   docker run --rm -it -p 8000:8000 --user -v "$PWD":/docs squidfunk/mkdocs-material serve
+   docker run --rm -it -p 8000:8000 -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material
    ```
 
 4. **Generar la documentación estática**:
@@ -69,7 +69,7 @@ jsegrod1512-practica-iaw-mkdocs/
    Construye el sitio estático con:
 
    ```bash
-   docker run --rm -it -v "$PWD":/docs squidfunk/mkdocs-material build
+   docker run --rm -it -u $(id -u):$(id -g) -v "$PWD":/docs squidfunk/mkdocs-material build
    ```
 
    El sitio generado se almacenará en el directorio `site/`.
@@ -91,8 +91,12 @@ jsegrod1512-practica-iaw-mkdocs/
 
 **Capturas de pantalla:**
 
-- ![Despliegue sin errores](./capturas/captura1.png)
+- ![mkdocs build sin errores](./capturas/captura0.png)
+
+- ![mkdocs serve sins errores](./capturas/captura1.png)
 
 - ![Servicios corriendo en Docker](./capturas/captura2.png)
 
-- ![Acceso a WordPress vía HTTPS](./capturas/captura3.png)
+- ![GitHub Actions creando una pagina en GitHub Pages sin errores](./capturas/captura3.png)
+
+- ![Acceso a pagina con mkdocs vía Github Pages](./capturas/captura4.png)
