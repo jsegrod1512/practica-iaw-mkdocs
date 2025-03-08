@@ -99,4 +99,4 @@ jsegrod1512-practica-iaw-mkdocs/
 
 - ![GitHub Actions creando una pagina en GitHub Pages sin errores](./capturas/captura3.png)
 
-- ![Acceso a la página con mkdocs vía Github Pages](./capturas/capturagithubpages.png)
+- ![Acceso a la página con mkdocs vía Github Pages](./capturas/captura4.png)
