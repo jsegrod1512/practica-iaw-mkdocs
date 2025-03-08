@@ -1,8 +1,13 @@
-site_name: IAW
+site_name: Practica IAW Mkdocs
 
 nav:
     - Principal: index.md
     - Acerca de: about.md
-    - Practica 1: practica1.md
+    - Practica 5.1: practica5.1.md
+    - Practica 5.2: practica5.2.md
 
-theme: material
+theme: 
+    name: material
+    palette:
+        primary: orange
+        accent: deep orange
