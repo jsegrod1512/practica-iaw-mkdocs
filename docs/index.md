@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Bienvenido a la página de Jose Manuel Segura Rodriguez
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## - [Practica IAW 5.1. HTTPS con Let’s Encrypt, Docker y Docker Compose](practica5.1.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+En esta práctica vamos a habilitar el protocolo HTTPS en un sitio web PrestaShop que se estará ejecutando sobre contenedores Docker en una instancia EC2 de Amazon Web Services (AWS).
 
-## Project layout
+## - [Practica IAW 5.2. Despliegue de WordPress con Docker y Docker Compose](practica5.2.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+En esta práctica tendremos que realizar la implantación de un sitio WordPress en Amazon Web Services (AWS) haciendo uso de contenedores Docker y la herramienta Docker Compose.
