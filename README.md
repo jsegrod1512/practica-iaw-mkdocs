@@ -78,6 +78,8 @@ jsegrod1512-practica-iaw-mkdocs/
 
    El flujo de trabajo de CI/CD en GitHub Actions, definido en `.github/workflows/build-push-mkdocs.yml`, se encarga de desplegar automáticamente el sitio en la rama `gh-pages` al realizar un push a la rama `main`.
 
+   [Enlace a mi página de github pages](https://jsegrod1512.github.io/practica-iaw-mkdocs)
+
 ## Notas Adicionales
 
 - **Permisos en Docker**: Al ejecutar Docker en sistemas Unix, es importante establecer los permisos adecuados para evitar problemas al acceder a los archivos generados. Utilizar la opción `--user $(id -u):$(id -g)` al ejecutar los comandos de Docker ayuda a mantener los permisos consistentes con el usuario actual.
